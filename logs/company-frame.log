@@ -1,0 +1,1117 @@
+2020-06-26 16:27:15.857  INFO 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : Starting CompanyFrameApplication on linjingrongdeMacBook-Pro.local with PID 4439 (/Users/linjingrong/IdeaProjects/company-frame/target/classes started by linjingrong in /Users/linjingrong/IdeaProjects/company-frame)
+2020-06-26 16:27:15.864 DEBUG 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-26 16:27:15.865  INFO 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : No active profile set, falling back to default profiles: default
+2020-06-26 16:27:15.927  INFO 4439 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-26 16:27:15.928  INFO 4439 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-26 16:27:17.304  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:27:17.304  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:27:17.342  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2020-06-26 16:27:17.359  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:27:17.361  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:27:17.382  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-06-26 16:27:17.824  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19983176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:17.964  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.linjr.config.ShiroConfig$$EnhancerBySpringCGLIB$$ea22c904] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.240  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.linjr.config.RedisConfig$$EnhancerBySpringCGLIB$$34f1504e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.265  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.271  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$2eb1efc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.372  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.461  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.481  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.498  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.linjr.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.502  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.linjr.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.507  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [com.linjr.shiro.ShiroCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.523  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource1Config' of type [com.linjr.datasources.DataSource1Config$$EnhancerBySpringCGLIB$$308a7267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.564  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1DataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.591  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.598  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.862  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.869  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.871  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.873  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.878  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.879  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.880  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionServiceImpl' of type [com.linjr.service.impl.RolePermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.884  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.885  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [com.sun.proxy.$Proxy98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.889  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.890  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [com.sun.proxy.$Proxy99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.891  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.linjr.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.920  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenSetting' of type [com.linjr.utils.TokenSetting$$EnhancerBySpringCGLIB$$9e807631] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.921  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.linjr.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.931  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [com.linjr.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.937  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.linjr.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.946  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:18.963  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:27:19.424  INFO 4439 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-26 16:27:19.452  INFO 4439 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-26 16:27:19.452  INFO 4439 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-26 16:27:19.556  INFO 4439 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-26 16:27:19.556  INFO 4439 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3628 ms
+2020-06-26 16:27:19.838  INFO 4439 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-06-26 16:27:20.347  INFO 4439 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-26 16:27:20.431  INFO 4439 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-26 16:27:20.432  INFO 4439 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-26 16:27:20.597  INFO 4439 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-26 16:27:20.776  INFO 4439 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-26 16:27:20.962  INFO 4439 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:27:22.178  WARN 4439 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-26 16:27:22.456  INFO 4439 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-26 16:27:22.491  INFO 4439 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myTaskExecutor'
+2020-06-26 16:27:22.841  INFO 4439 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-26 16:27:23.495  INFO 4439 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-26 16:27:23.692  INFO 4439 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-26 16:27:23.714  INFO 4439 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-26 16:27:23.762  INFO 4439 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-26 16:27:23.986  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2020-06-26 16:27:24.037  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2020-06-26 16:27:24.085  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2020-06-26 16:27:24.118  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDeptTreeUsingGET_1
+2020-06-26 16:27:24.133  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2020-06-26 16:27:24.163  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2020-06-26 16:27:24.189  INFO 4439 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:27:29.212  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:27:29.212  INFO 4439 --- [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.util.concurrent.TimeoutException
+2020-06-26 16:27:29.219  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:27:34.226  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:27:34.245 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:74) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1104) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:27:34.248  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:27:39.254  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:27:39.351  INFO 4439 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-26 16:27:39.355  INFO 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : Started CompanyFrameApplication in 24.063 seconds (JVM running for 25.837)
+2020-06-26 16:27:44.313  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@659e32c5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:27:44.315  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:27:49.316  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:27:49.317 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:74) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1104) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:27:49.318  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:27:54.323  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:27:59.378  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@62cbd4f1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:27:59.379  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:04.382  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:04.383 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:74) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1104) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:28:04.384  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:09.387  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:12.091  INFO 4439 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 16:28:12.091  INFO 4439 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-26 16:28:12.105  INFO 4439 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-26 16:28:12.666  INFO 4439 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/
+2020-06-26 16:28:12.666  INFO 4439 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:28:12.814  INFO 4439 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/csrf
+2020-06-26 16:28:12.814  INFO 4439 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:28:14.439  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3f7c1eab: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:28:14.439  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:19.443  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:19.443 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:74) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1104) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:28:19.444  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:24.445  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:29.488  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@fb0e442: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:28:29.488  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:34.495  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:34.495 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:74) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1104) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:28:34.495  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:39.499  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:44.572  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7eddad39: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:28:44.575  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:49.577  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:49.577 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:74) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:494) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:315) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1104) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:28:49.578  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:15672]
+2020-06-26 16:28:54.582  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:28:57.125  INFO 4439 --- [Thread-20] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:28:57.125  INFO 4439 --- [Thread-20] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:28:57.128  INFO 4439 --- [Thread-20] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-26 16:28:57.130  INFO 4439 --- [Thread-20] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:28:57.131  INFO 4439 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myTaskExecutor'
+2020-06-26 16:28:57.134  INFO 4439 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:28:57.141  INFO 4439 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-06-26 16:28:57.646  INFO 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : Starting CompanyFrameApplication on linjingrongdeMacBook-Pro.local with PID 4439 (/Users/linjingrong/IdeaProjects/company-frame/target/classes started by linjingrong in /Users/linjingrong/IdeaProjects/company-frame)
+2020-06-26 16:28:57.646 DEBUG 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-26 16:28:57.646  INFO 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : No active profile set, falling back to default profiles: default
+2020-06-26 16:28:58.224  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:28:58.227  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:28:58.243  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-06-26 16:28:58.247  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:28:58.247  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:28:58.256  INFO 4439 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-06-26 16:28:58.331  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19983176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.337  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.linjr.config.ShiroConfig$$EnhancerBySpringCGLIB$$ea22c904] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.346  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.linjr.config.RedisConfig$$EnhancerBySpringCGLIB$$34f1504e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.354  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.357  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$2eb1efc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.361  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.364  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.370  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.377  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.linjr.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.378  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.linjr.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.382  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [com.linjr.shiro.ShiroCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.388  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource1Config' of type [com.linjr.datasources.DataSource1Config$$EnhancerBySpringCGLIB$$308a7267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.402  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1DataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.427  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.432  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.504  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.506  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.509  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.510  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [com.sun.proxy.$Proxy202] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.514  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.515  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [com.sun.proxy.$Proxy203] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.515  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionServiceImpl' of type [com.linjr.service.impl.RolePermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.519  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.520  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [com.sun.proxy.$Proxy204] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.525  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.525  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [com.sun.proxy.$Proxy205] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.526  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.linjr.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.537  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenSetting' of type [com.linjr.utils.TokenSetting$$EnhancerBySpringCGLIB$$9e807631] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.539  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.linjr.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.548  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [com.linjr.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.554  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.linjr.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.562  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.572  INFO 4439 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:28:58.744  INFO 4439 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-26 16:28:58.745  INFO 4439 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-26 16:28:58.745  INFO 4439 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-26 16:28:58.755  INFO 4439 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-26 16:28:58.755  INFO 4439 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1106 ms
+2020-06-26 16:28:58.857  INFO 4439 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2020-06-26 16:28:58.986  INFO 4439 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-26 16:28:59.018  INFO 4439 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-26 16:28:59.031  INFO 4439 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:28:59.728  WARN 4439 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-26 16:28:59.911  INFO 4439 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-26 16:28:59.942  INFO 4439 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myTaskExecutor'
+2020-06-26 16:29:00.223  INFO 4439 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-26 16:29:00.601  INFO 4439 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-26 16:29:00.705  INFO 4439 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-26 16:29:00.706  INFO 4439 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-26 16:29:00.717  INFO 4439 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-26 16:29:00.781  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2020-06-26 16:29:00.814  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2020-06-26 16:29:00.854  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2020-06-26 16:29:00.879  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDeptTreeUsingGET_1
+2020-06-26 16:29:00.893  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2020-06-26 16:29:00.916  INFO 4439 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2020-06-26 16:29:00.928  INFO 4439 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:05.934  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:05.934  INFO 4439 --- [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused (Connection refused)
+2020-06-26 16:29:05.936  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:10.942  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:10.943 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:29:10.944  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:15.947  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:15.958  INFO 4439 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-26 16:29:15.959  INFO 4439 --- [restartedMain] com.linjr.CompanyFrameApplication        : Started CompanyFrameApplication in 18.485 seconds (JVM running for 122.441)
+2020-06-26 16:29:15.963  INFO 4439 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-26 16:29:21.007  WARN 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2020-06-26 16:29:21.007  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1c6f4b61: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:29:21.009  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:26.010  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:26.011 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:29:26.012  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:31.015  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:36.062  WARN 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2020-06-26 16:29:36.062  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@25569bcb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-06-26 16:29:36.063  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:41.066  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:41.067 ERROR 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:702) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2073) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2047) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2027) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:403) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1787) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1195) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1041) [spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054) ~[amqp-client-5.4.3.jar:5.4.3]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994) ~[amqp-client-5.4.3.jar:5.4.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462) ~[spring-rabbit-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	... 11 common frames omitted
+
+2020-06-26 16:29:41.067  INFO 4439 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:15672]
+2020-06-26 16:29:43.785  INFO 4439 --- [Thread-67] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:29:43.786  INFO 4439 --- [Thread-67] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:29:43.787  INFO 4439 --- [Thread-67] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-26 16:29:43.788  INFO 4439 --- [Thread-67] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:29:43.789  INFO 4439 --- [Thread-67] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myTaskExecutor'
+2020-06-26 16:29:46.074  WARN 4439 --- [AMQP Connection 127.0.0.1:15672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Socket closed)
+2020-06-26 16:29:46.074  INFO 4439 --- [Thread-67] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:29:46.076  INFO 4439 --- [Thread-67] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2020-06-26 16:31:55.903  INFO 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : Starting CompanyFrameApplication on linjingrongdeMacBook-Pro.local with PID 5343 (/Users/linjingrong/IdeaProjects/company-frame/target/classes started by linjingrong in /Users/linjingrong/IdeaProjects/company-frame)
+2020-06-26 16:31:55.905 DEBUG 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-26 16:31:55.906  INFO 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : No active profile set, falling back to default profiles: default
+2020-06-26 16:31:55.954  INFO 5343 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-26 16:31:55.954  INFO 5343 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-26 16:31:57.212  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:31:57.212  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:31:57.248  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2020-06-26 16:31:57.260  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:31:57.261  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:31:57.278  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-06-26 16:31:57.687  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ba3dffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:57.798  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.linjr.config.ShiroConfig$$EnhancerBySpringCGLIB$$2c2e778c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.032  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.linjr.config.RedisConfig$$EnhancerBySpringCGLIB$$76fcfed6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.055  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.061  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$70bd9e48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.133  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.196  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.214  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.231  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.linjr.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.234  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.linjr.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.240  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [com.linjr.shiro.ShiroCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.257  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource1Config' of type [com.linjr.datasources.DataSource1Config$$EnhancerBySpringCGLIB$$729620ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.294  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1DataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.322  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.329  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.570  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.576  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.578  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.580  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.585  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.585  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.586  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionServiceImpl' of type [com.linjr.service.impl.RolePermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.590  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.591  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [com.sun.proxy.$Proxy98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.596  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.596  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [com.sun.proxy.$Proxy99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.597  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.linjr.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.621  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenSetting' of type [com.linjr.utils.TokenSetting$$EnhancerBySpringCGLIB$$e08c24b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.622  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.linjr.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.630  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [com.linjr.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.636  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.linjr.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.643  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:58.657  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:31:59.058  INFO 5343 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-26 16:31:59.080  INFO 5343 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-26 16:31:59.080  INFO 5343 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-26 16:31:59.167  INFO 5343 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-26 16:31:59.168  INFO 5343 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3213 ms
+2020-06-26 16:31:59.410  INFO 5343 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-06-26 16:32:00.258  INFO 5343 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-26 16:32:00.313  INFO 5343 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-26 16:32:00.314  INFO 5343 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-26 16:32:00.421  INFO 5343 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-26 16:32:00.562  INFO 5343 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-26 16:32:00.712  INFO 5343 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:32:01.884  WARN 5343 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-26 16:32:02.120  INFO 5343 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-26 16:32:02.151  INFO 5343 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myTaskExecutor'
+2020-06-26 16:32:02.474  INFO 5343 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-26 16:32:03.072  INFO 5343 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-26 16:32:03.261  INFO 5343 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-26 16:32:03.278  INFO 5343 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-26 16:32:03.326  INFO 5343 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-26 16:32:03.542  INFO 5343 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2020-06-26 16:32:03.591  INFO 5343 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2020-06-26 16:32:03.638  INFO 5343 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2020-06-26 16:32:03.668  INFO 5343 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDeptTreeUsingGET_1
+2020-06-26 16:32:03.683  INFO 5343 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2020-06-26 16:32:03.712  INFO 5343 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2020-06-26 16:32:03.735  INFO 5343 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2020-06-26 16:32:03.774  INFO 5343 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6e67ac96:0/SimpleConnection@72d5c878 [delegate=amqp://linjr@127.0.0.1:5672/, localPort= 50398]
+2020-06-26 16:32:03.948  INFO 5343 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-26 16:32:03.951  INFO 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : Started CompanyFrameApplication in 8.54 seconds (JVM running for 9.383)
+2020-06-26 16:32:44.084  INFO 5343 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 16:32:44.085  INFO 5343 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-26 16:32:44.097  INFO 5343 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-26 16:32:44.585  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/
+2020-06-26 16:32:44.586  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:32:44.719  INFO 5343 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/csrf
+2020-06-26 16:32:44.720  INFO 5343 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:33:14.576 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysUserMapper.selectByUsername   : ==>  Preparing: select id, username, salt, `password`, phone, dept_id, real_name, nick_name, email, `status`, sex, deleted, create_id, update_id, create_where, create_time, update_time from sys_user where username=? and deleted=1 
+2020-06-26 16:33:14.596 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysUserMapper.selectByUsername   : ==> Parameters: admin(String)
+2020-06-26 16:33:14.620 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysUserMapper.selectByUsername   : <==      Total: 1
+2020-06-26 16:33:14.628 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getRoleIdsByUserId             : ==>  Preparing: select role_id from sys_user_role where user_id=? 
+2020-06-26 16:33:14.628 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getRoleIdsByUserId             : ==> Parameters: fcf34b56-a7a2-4719-9236-867495e74c31(String)
+2020-06-26 16:33:14.642 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getRoleIdsByUserId             : <==      Total: 1
+2020-06-26 16:33:14.661 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysRoleMapper.selectNamesByIds   : ==>  Preparing: select name from sys_role where id in ( ? ) and deleted=1 
+2020-06-26 16:33:14.661 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysRoleMapper.selectNamesByIds   : ==> Parameters: b125dbb8-459e-409f-bd1f-d17966568eda(String)
+2020-06-26 16:33:14.669 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysRoleMapper.selectNamesByIds   : <==      Total: 1
+2020-06-26 16:33:14.675 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getRoleIdsByUserId             : ==>  Preparing: select role_id from sys_user_role where user_id=? 
+2020-06-26 16:33:14.675 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getRoleIdsByUserId             : ==> Parameters: fcf34b56-a7a2-4719-9236-867495e74c31(String)
+2020-06-26 16:33:14.686 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getRoleIdsByUserId             : <==      Total: 1
+2020-06-26 16:33:14.688 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getPermissionIdByRoleIds       : ==>  Preparing: select permission_id from sys_role_permission where role_id in ( ? ) 
+2020-06-26 16:33:14.688 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getPermissionIdByRoleIds       : ==> Parameters: b125dbb8-459e-409f-bd1f-d17966568eda(String)
+2020-06-26 16:33:14.701 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.S.getPermissionIdByRoleIds       : <==      Total: 46
+2020-06-26 16:33:14.704 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysPermissionMapper.selectByIds  : ==>  Preparing: select id, code, `name`, perms, url, `method`, pid, order_num, `type`, `status`, create_time, update_time, deleted from sys_permission where id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) and deleted=1 and `status`=1 order by order_num desc 
+2020-06-26 16:33:14.706 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysPermissionMapper.selectByIds  : ==> Parameters: 2f9a3f67-6ef3-4eac-b9a1-c0e898718d0c(String), f9f4d9f4-a2f5-430c-9f2d-6c8e650a8c39(String), ccef525e-3392-45f8-969f-d552b142dc0f(String), 2446fd0d-11ba-44aa-9128-531e38ec3b7a(String), c198d1cb-ad4d-4001-9375-9ec8ee04053d(String), fb350a7a-bf53-4aca-ac50-5714cc59f21a(String), 19e32679-1516-4bfb-8cab-5687f168776d(String), 4caeb861-354c-45f6-98b4-59f486beb511(String), 24b7b13c-f00f-4e6b-a221-fe2d780e4d4f(String), 8180e320-e2bf-470c-bb42-80fb5bf9f5c3(String), 8f393e44-b585-4875-866d-71f88fea9659(String), 7141c2e9-6d50-46b6-94e8-100466b7249f(String), 84b9b525-aa44-4b16-9900-adca26115a37(String), 54348b8f-c4ed-4cb5-a01c-d9c7cfc0c28a(String), 390ded0e-9f48-40a7-a841-791c203f22ae(String), 15bb6aff-2e3b-490a-a21f-0167ae0ebc0d(String), 013095aa-0f4d-4c32-b30e-229a587e52ad(String), 346df872-8964-4455-8afd-ffa6308fb18a(String), e136cc74-9817-4ef1-b181-8f1afd7e102c(String), 145cb90b-d205-40f6-8a2d-703f41ed1feb(String), 27acf73b-2fcb-451b-bdc4-e11e5ab41e2a(String), 290c0240-0914-487c-b4e9-6635bf5ebfec(String), 5695ed19-5620-4da4-8cb0-159f34ae6591(String), b7348d63-c4d3-406d-9e46-543346674275(String), 5b813a71-21ed-434c-8593-1e4a10b9d5f6(String), 71d941e0-0d01-4402-94fc-5dec7b30dd13(String), 0545d9d1-c82c-44c2-85e5-0b6ac4042515(String), 65734896-90c5-4b48-b9e8-dee47a74a297(String), 47697e92-e199-4420-a2c2-09ec1b08cb9d(String), 03dc1cbf-ef44-4326-a7dc-10fe16d22dad(String), 456a9840-7511-48f9-a8b3-64b32d96e151(String), f1ea1abb-3dde-4196-b054-2ae2fcfe7c23(String), bb5ca869-0303-4fc0-b067-936cba7d1cc8(String), d60faf3e-9a72-49d5-b02d-a67bfeff07fa(String), d41c2bc3-454c-4f62-84fe-97825d5cf8a7(String), 26694831-fc81-4590-9095-af7e55b9819a(String), 2ae13993-9501-46d5-8473-fe45fee57f3b(String), 94fe50a9-f5af-4f3c-84e4-18b3a84d7a58(String), 39313e6a-14ed-4224-a91e-ef6a10ba54cd(String), 2eeaa020-74d5-4c4b-9849-2cf4bd68fed9(String), 90b3be91-5e9d-42f8-81fb-0c9ef3014faa(String), c095273c-7917-4503-8569-6a67a9979d56(String), 075224a7-1805-4f2f-a325-157effaf0004(String), 74b46280-d819-4027-a1c1-b1a07a3aa9a7(String), 9ce621a0-ee2c-4cf6-b7bd-012a1a01ba63(String), 02924b8a-f1ae-4d26-aab1-9fda8f400dcf(String)
+2020-06-26 16:33:14.733 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.d.SysPermissionMapper.selectByIds  : <==      Total: 46
+2020-06-26 16:33:14.763  INFO 5343 --- [http-nio-8080-exec-10] com.linjr.service.impl.UserServiceImpl   : accessTokeneyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmY2YzNGI1Ni1hN2EyLTQ3MTktOTIzNi04Njc0OTVlNzRjMzEiLCJyb2xlcy1pbmZvcy1rZXkiOlsi6LaF57qn566h55CG5ZGYIl0sInBlcm1pc3Npb25zLWluZm9zLWtleSI6WyJzeXM6ZGVwdDphZGQiLCJzeXM6bG9nOmxpc3QiLCJzeXM6cm90YXRpb246ZGVsZXRlIiwic3lzOnVzZXI6ZGVsZXRlIiwic3lzOmxvZzpkZWxldGUiLCJzeXM6cm90YXRpb246bGlzdCIsInN5czpkZXB0OmRlbGV0ZSIsInN5czp1c2VyOmFkZCIsInN5czpyb2xlOnVwZGF0ZSIsInN5czpwZXJtaXNzaW9uOmRlbGV0ZSIsInN5czpwZXJtaXNzaW9uOmxpc3QiLCJzeXM6ZGVwdDpsaXN0Iiwic3lzOnVzZXI6bGlzdCIsInN5czpyb3RhdGlvbjp1cGRhdGUiLCJzeXM6cm9sZTpkZWxldGUiLCJzeXM6cm9sZTphZGQiLCJzeXM6cm9sZTpkZXRhaWwiLCJzeXM6ZGVwdDp1cGRhdGUiLCJzeXM6cGVybWlzc2lvbjp1cGRhdGUiLCJzeXM6dXNlcjpyb2xlOnVwZGF0ZSIsInN5czp1c2VyOnVwZGF0ZSIsInN5czpwZXJtaXNzaW9uOmFkZCIsInN5czpyb2xlOmxpc3QiLCJzeXM6cm90YXRpb246YWRkIl0sImlzcyI6ImxpbmpyLm9yZy5jbiIsImp3dC11c2VyLW5hbWUta2V5IjoiYWRtaW4iLCJleHAiOjE1OTMxNjc1OTQsImlhdCI6MTU5MzE2MDM5NH0.4xhiqNJKf8SAg2ndoNdJkgtgEkwBB36zAzEp5BpMtFk
+2020-06-26 16:33:14.764  INFO 5343 --- [http-nio-8080-exec-10] com.linjr.service.impl.UserServiceImpl   : refreshTokeneyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmY2YzNGI1Ni1hN2EyLTQ3MTktOTIzNi04Njc0OTVlNzRjMzEiLCJpc3MiOiJsaW5qci5vcmcuY24iLCJleHAiOjE1OTMxODkxOTQsImlhdCI6MTU5MzE2MDM5NCwiand0LXJlZnJlc2gta2V5XyI6ImFkbWluIn0.OwDsmcjx8z__u0i-_OcQbaydF1JqFIE46ltrymS5HPk
+2020-06-26 16:33:14.765  INFO 5343 --- [http-nio-8080-exec-10] com.linjr.aop.aspect.SysLogAspect        : 请求com.linjr.controller.UserController.login耗时224毫秒
+2020-06-26 16:33:14.769  INFO 5343 --- [http-nio-8080-exec-10] com.linjr.aop.aspect.SysLogAspect        : Ip0:0:0:0:0:0:0:1，接口地址http://localhost:8080/api/user/login，请求方式POST，入参：[{"password":"666666","type":"1","username":"admin"}]
+2020-06-26 16:33:14.779 ERROR 5343 --- [http-nio-8080-exec-10] com.linjr.utils.JwtTokenUtil             : eror={}
+
+java.lang.NullPointerException: null
+	at com.linjr.utils.JwtTokenUtil.getUserId(JwtTokenUtil.java:147) ~[classes/:na]
+	at com.linjr.aop.aspect.SysLogAspect.saveSysLog(SysLogAspect.java:121) [classes/:na]
+	at com.linjr.aop.aspect.SysLogAspect.around(SysLogAspect.java:66) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.linjr.controller.UserController$$EnhancerBySpringCGLIB$$8ad5cabf.login(<generated>) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.1.jar:1.4.1]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.1.jar:1.4.1]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-06-26 16:33:14.780 ERROR 5343 --- [http-nio-8080-exec-10] com.linjr.utils.JwtTokenUtil             : eror={}
+
+java.lang.NullPointerException: null
+	at com.linjr.utils.JwtTokenUtil.getUserName(JwtTokenUtil.java:169) ~[classes/:na]
+	at com.linjr.aop.aspect.SysLogAspect.saveSysLog(SysLogAspect.java:122) [classes/:na]
+	at com.linjr.aop.aspect.SysLogAspect.around(SysLogAspect.java:66) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.linjr.controller.UserController$$EnhancerBySpringCGLIB$$8ad5cabf.login(<generated>) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.4.1.jar:1.4.1]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.4.1.jar:1.4.1]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) [shiro-core-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.4.1.jar:1.4.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-06-26 16:33:14.781  INFO 5343 --- [http-nio-8080-exec-10] com.linjr.aop.aspect.SysLogAspect        : SysLog [Hash = 1936581501, id=332c2deb-7038-4516-8b09-f2f184b8728f, userId=null, username=null, operation=组织管理-用户模块相关接口-用户登陆接口, time=224, method=com.linjr.controller.UserController.login(), params=[{"password":"666666","type":"1","username":"admin"}], ip=0:0:0:0:0:0:0:1, createTime=Fri Jun 26 16:33:14 CST 2020, serialVersionUID=1]
+2020-06-26 16:33:14.786 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.db1.SysLogMapper.insertSelective   : ==>  Preparing: insert into sys_log ( id, `operation`, `time`, `method`, params, ip, create_time ) values ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-06-26 16:33:14.788 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.db1.SysLogMapper.insertSelective   : ==> Parameters: 332c2deb-7038-4516-8b09-f2f184b8728f(String), 组织管理-用户模块相关接口-用户登陆接口(String), 224(Integer), com.linjr.controller.UserController.login()(String), [{"password":"666666","type":"1","username":"admin"}](String), 0:0:0:0:0:0:0:1(String), 2020-06-26 16:33:14.781(Timestamp)
+2020-06-26 16:33:14.807 DEBUG 5343 --- [http-nio-8080-exec-10] c.l.m.db1.SysLogMapper.insertSelective   : <==    Updates: 1
+2020-06-26 16:33:25.005  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:33:25.006  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:33:25.028  INFO 5343 --- [http-nio-8080-exec-2] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:33:25.158  INFO 5343 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-26 16:33:25.159  INFO 5343 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-26 16:33:53.031  INFO 5343 --- [http-nio-8080-exec-8] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:33:53.032  INFO 5343 --- [http-nio-8080-exec-8] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:33:53.034  INFO 5343 --- [http-nio-8080-exec-8] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:35:57.149  INFO 5343 --- [http-nio-8080-exec-9] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:35:57.149  INFO 5343 --- [http-nio-8080-exec-9] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:35:57.151  INFO 5343 --- [http-nio-8080-exec-9] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:33.265  INFO 5343 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:33.265  INFO 5343 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:33.267  INFO 5343 --- [http-nio-8080-exec-10] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:33.428  INFO 5343 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:33.429  INFO 5343 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:33.430  INFO 5343 --- [http-nio-8080-exec-3] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:33.606  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:33.606  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:33.608  INFO 5343 --- [http-nio-8080-exec-2] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:33.742  INFO 5343 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:33.742  INFO 5343 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:33.743  INFO 5343 --- [http-nio-8080-exec-6] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:33.873  INFO 5343 --- [http-nio-8080-exec-1] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:33.873  INFO 5343 --- [http-nio-8080-exec-1] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:33.874  INFO 5343 --- [http-nio-8080-exec-1] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:34.038  INFO 5343 --- [http-nio-8080-exec-5] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:34.038  INFO 5343 --- [http-nio-8080-exec-5] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:34.039  INFO 5343 --- [http-nio-8080-exec-5] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:34.168  INFO 5343 --- [http-nio-8080-exec-4] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:34.168  INFO 5343 --- [http-nio-8080-exec-4] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:34.170  INFO 5343 --- [http-nio-8080-exec-4] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:53.902  INFO 5343 --- [http-nio-8080-exec-8] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:53.904  INFO 5343 --- [http-nio-8080-exec-8] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:53.906  INFO 5343 --- [http-nio-8080-exec-8] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:54.035  INFO 5343 --- [http-nio-8080-exec-7] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:54.035  INFO 5343 --- [http-nio-8080-exec-7] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:54.037  INFO 5343 --- [http-nio-8080-exec-7] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:54.202  INFO 5343 --- [http-nio-8080-exec-9] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:54.202  INFO 5343 --- [http-nio-8080-exec-9] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:54.204  INFO 5343 --- [http-nio-8080-exec-9] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:54.361  INFO 5343 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:54.361  INFO 5343 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:54.362  INFO 5343 --- [http-nio-8080-exec-10] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:54.517  INFO 5343 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:54.517  INFO 5343 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:54.518  INFO 5343 --- [http-nio-8080-exec-3] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:54.671  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:54.672  INFO 5343 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:54.673  INFO 5343 --- [http-nio-8080-exec-2] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:54.843  INFO 5343 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:54.844  INFO 5343 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:54.845  INFO 5343 --- [http-nio-8080-exec-6] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:55.128  INFO 5343 --- [http-nio-8080-exec-1] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:55.129  INFO 5343 --- [http-nio-8080-exec-1] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:55.130  INFO 5343 --- [http-nio-8080-exec-1] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:55.308  INFO 5343 --- [http-nio-8080-exec-5] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:55.308  INFO 5343 --- [http-nio-8080-exec-5] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:55.309  INFO 5343 --- [http-nio-8080-exec-5] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:55.441  INFO 5343 --- [http-nio-8080-exec-4] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:55.441  INFO 5343 --- [http-nio-8080-exec-4] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:55.442  INFO 5343 --- [http-nio-8080-exec-4] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:37:55.593  INFO 5343 --- [http-nio-8080-exec-8] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:37:55.593  INFO 5343 --- [http-nio-8080-exec-8] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:37:55.594  INFO 5343 --- [http-nio-8080-exec-8] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:38:35.639  INFO 5343 --- [http-nio-8080-exec-7] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendDemoQueue
+2020-06-26 16:38:35.639  INFO 5343 --- [http-nio-8080-exec-7] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:38:35.640  INFO 5343 --- [http-nio-8080-exec-7] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:48:33.980  INFO 5343 --- [Thread-19] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:48:34.168  INFO 5343 --- [Thread-19] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:48:34.172  INFO 5343 --- [Thread-19] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-26 16:48:34.173  INFO 5343 --- [Thread-19] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:48:34.174  INFO 5343 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myTaskExecutor'
+2020-06-26 16:48:34.184  INFO 5343 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:48:34.190  INFO 5343 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-06-26 16:48:35.825  INFO 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : Starting CompanyFrameApplication on linjingrongdeMacBook-Pro.local with PID 5343 (/Users/linjingrong/IdeaProjects/company-frame/target/classes started by linjingrong in /Users/linjingrong/IdeaProjects/company-frame)
+2020-06-26 16:48:35.825 DEBUG 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-26 16:48:35.825  INFO 5343 --- [restartedMain] com.linjr.CompanyFrameApplication        : No active profile set, falling back to default profiles: default
+2020-06-26 16:48:36.320  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:48:36.320  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:48:36.339  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2020-06-26 16:48:36.342  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:48:36.343  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:48:36.352  INFO 5343 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-06-26 16:48:36.430  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ba3dffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.436  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.linjr.config.ShiroConfig$$EnhancerBySpringCGLIB$$2c2e778c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.444  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.linjr.config.RedisConfig$$EnhancerBySpringCGLIB$$76fcfed6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.454  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.457  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$70bd9e48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.461  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.466  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.472  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.479  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.linjr.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.481  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.linjr.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.485  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [com.linjr.shiro.ShiroCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.491  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource1Config' of type [com.linjr.datasources.DataSource1Config$$EnhancerBySpringCGLIB$$729620ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.507  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1DataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.529  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.534  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.608  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.609  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.611  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.613  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [com.sun.proxy.$Proxy210] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.617  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.618  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [com.sun.proxy.$Proxy211] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.619  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionServiceImpl' of type [com.linjr.service.impl.RolePermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.623  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.624  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [com.sun.proxy.$Proxy212] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.629  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.630  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [com.sun.proxy.$Proxy213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.631  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.linjr.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.640  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenSetting' of type [com.linjr.utils.TokenSetting$$EnhancerBySpringCGLIB$$e08c24b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.642  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.linjr.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.652  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [com.linjr.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.659  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.linjr.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.666  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.674  INFO 5343 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:36.835  INFO 5343 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-26 16:48:36.836  INFO 5343 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-26 16:48:36.836  INFO 5343 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-26 16:48:36.844  INFO 5343 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-26 16:48:36.844  INFO 5343 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1016 ms
+2020-06-26 16:48:36.952  INFO 5343 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2020-06-26 16:48:37.107  INFO 5343 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-26 16:48:37.131  INFO 5343 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-26 16:48:37.143  INFO 5343 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:48:37.788  WARN 5343 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-26 16:48:37.959  INFO 5343 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-26 16:48:37.983  INFO 5343 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myTaskExecutor'
+2020-06-26 16:48:40.859  INFO 8408 --- [restartedMain] com.linjr.CompanyFrameApplication        : Starting CompanyFrameApplication on linjingrongdeMacBook-Pro.local with PID 8408 (/Users/linjingrong/IdeaProjects/company-frame/target/classes started by linjingrong in /Users/linjingrong/IdeaProjects/company-frame)
+2020-06-26 16:48:40.862 DEBUG 8408 --- [restartedMain] com.linjr.CompanyFrameApplication        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-26 16:48:40.862  INFO 8408 --- [restartedMain] com.linjr.CompanyFrameApplication        : No active profile set, falling back to default profiles: default
+2020-06-26 16:48:40.915  INFO 8408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-26 16:48:40.915  INFO 8408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-26 16:48:42.163  INFO 8408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:48:42.163  INFO 8408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:48:42.198  INFO 8408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2020-06-26 16:48:42.211  INFO 8408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:48:42.213  INFO 8408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:48:42.229  INFO 8408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-06-26 16:48:42.644  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b28cf673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:42.755  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.linjr.config.ShiroConfig$$EnhancerBySpringCGLIB$$83178e01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.022  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.linjr.config.RedisConfig$$EnhancerBySpringCGLIB$$cde6154b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.049  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.055  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$c7a6b4bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.138  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.207  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.226  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.244  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.linjr.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.248  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.linjr.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.253  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [com.linjr.shiro.ShiroCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.269  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource1Config' of type [com.linjr.datasources.DataSource1Config$$EnhancerBySpringCGLIB$$c97f3764] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.307  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1DataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.336  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.343  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.585  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.591  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.594  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.597  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.602  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.603  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.604  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionServiceImpl' of type [com.linjr.service.impl.RolePermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.609  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.610  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [com.sun.proxy.$Proxy98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.615  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.616  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [com.sun.proxy.$Proxy99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.617  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.linjr.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.653  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenSetting' of type [com.linjr.utils.TokenSetting$$EnhancerBySpringCGLIB$$37753b2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.654  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.linjr.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.665  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [com.linjr.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.672  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.linjr.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.680  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:43.696  INFO 8408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:48:44.114  INFO 8408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-26 16:48:44.137  INFO 8408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-26 16:48:44.137  INFO 8408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-26 16:48:44.230  INFO 8408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-26 16:48:44.230  INFO 8408 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3315 ms
+2020-06-26 16:48:44.466  INFO 8408 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-06-26 16:48:44.787  INFO 8408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-26 16:48:44.845  INFO 8408 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-26 16:48:44.847  INFO 8408 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-26 16:48:44.965  INFO 8408 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-26 16:48:45.117  INFO 8408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-26 16:48:45.274  INFO 8408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:48:46.458  WARN 8408 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-26 16:48:46.707  INFO 8408 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-26 16:48:46.739  INFO 8408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myTaskExecutor'
+2020-06-26 16:48:47.068  INFO 8408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-26 16:48:47.695  INFO 8408 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-26 16:48:47.896  INFO 8408 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-26 16:48:47.913  INFO 8408 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-26 16:48:47.960  INFO 8408 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-26 16:48:48.183  INFO 8408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2020-06-26 16:48:48.233  INFO 8408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2020-06-26 16:48:48.286  INFO 8408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2020-06-26 16:48:48.321  INFO 8408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDeptTreeUsingGET_1
+2020-06-26 16:48:48.338  INFO 8408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2020-06-26 16:48:48.372  INFO 8408 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2020-06-26 16:48:48.399  INFO 8408 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2020-06-26 16:48:48.432  INFO 8408 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#78c76e7e:0/SimpleConnection@4e4354a0 [delegate=amqp://linjr@127.0.0.1:5672/, localPort= 52084]
+2020-06-26 16:48:48.725  INFO 8408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-26 16:48:48.732  INFO 8408 --- [restartedMain] com.linjr.CompanyFrameApplication        : Started CompanyFrameApplication in 8.335 seconds (JVM running for 9.099)
+2020-06-26 16:49:05.947  INFO 8408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 16:49:05.947  INFO 8408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-26 16:49:05.961  INFO 8408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-06-26 16:49:06.439  INFO 8408 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/
+2020-06-26 16:49:06.439  INFO 8408 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:49:06.528  INFO 8408 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/csrf
+2020-06-26 16:49:06.528  INFO 8408 --- [http-nio-8080-exec-6] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:49:15.338  INFO 8408 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendFanout
+2020-06-26 16:49:15.338  INFO 8408 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:49:15.383  INFO 8408 --- [http-nio-8080-exec-10] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:49:15.484  INFO 8408 --- [http-nio-8080-exec-10] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-26 16:49:15.485  INFO 8408 --- [http-nio-8080-exec-10] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-26 16:57:03.722  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:57:03.833  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:57:03.834  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:57:04.792  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:57:04.795  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:57:05.797  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:57:05.798  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:57:06.801  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:57:06.805  INFO 8408 --- [Thread-24] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-26 16:57:06.806  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:57:06.806  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:57:06.806  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:57:06.806  INFO 8408 --- [Thread-24] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:57:06.807  INFO 8408 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myTaskExecutor'
+2020-06-26 16:57:06.815  INFO 8408 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:57:06.820  INFO 8408 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-06-26 16:57:10.089  INFO 9968 --- [restartedMain] com.linjr.CompanyFrameApplication        : Starting CompanyFrameApplication on linjingrongdeMacBook-Pro.local with PID 9968 (/Users/linjingrong/IdeaProjects/company-frame/target/classes started by linjingrong in /Users/linjingrong/IdeaProjects/company-frame)
+2020-06-26 16:57:10.091 DEBUG 9968 --- [restartedMain] com.linjr.CompanyFrameApplication        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-06-26 16:57:10.092  INFO 9968 --- [restartedMain] com.linjr.CompanyFrameApplication        : No active profile set, falling back to default profiles: default
+2020-06-26 16:57:10.139  INFO 9968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-26 16:57:10.140  INFO 9968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-26 16:57:11.415  INFO 9968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:57:11.415  INFO 9968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:57:11.451  INFO 9968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2020-06-26 16:57:11.463  INFO 9968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-26 16:57:11.464  INFO 9968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-26 16:57:11.490  INFO 9968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2020-06-26 16:57:11.877  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e51a21a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:11.989  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.linjr.config.ShiroConfig$$EnhancerBySpringCGLIB$$b5a4b92e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.214  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.linjr.config.RedisConfig$$EnhancerBySpringCGLIB$$734078] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.237  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.243  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$fa33dfea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.316  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.381  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.399  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.416  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.linjr.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.419  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.linjr.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.425  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [com.linjr.shiro.ShiroCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.440  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource1Config' of type [com.linjr.datasources.DataSource1Config$$EnhancerBySpringCGLIB$$fc0c6291] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.477  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1DataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.505  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.511  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.767  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.773  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'db1SqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.776  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.778  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRoleMapper' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.783  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.784  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysRolePermissionMapper' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.785  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionServiceImpl' of type [com.linjr.service.impl.RolePermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.789  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.790  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysPermissionMapper' of type [com.sun.proxy.$Proxy98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.795  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.796  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sysUserRoleMapper' of type [com.sun.proxy.$Proxy99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.797  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.linjr.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.822  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenSetting' of type [com.linjr.utils.TokenSetting$$EnhancerBySpringCGLIB$$6a02665b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.823  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.linjr.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.832  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [com.linjr.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.840  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.linjr.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.848  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:12.863  INFO 9968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-26 16:57:13.271  INFO 9968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-26 16:57:13.293  INFO 9968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-26 16:57:13.293  INFO 9968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-26 16:57:13.380  INFO 9968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-26 16:57:13.380  INFO 9968 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3240 ms
+2020-06-26 16:57:13.628  INFO 9968 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-06-26 16:57:13.994  INFO 9968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-06-26 16:57:14.050  INFO 9968 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-06-26 16:57:14.052  INFO 9968 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-06-26 16:57:14.160  INFO 9968 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-26 16:57:14.298  INFO 9968 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-26 16:57:14.440  INFO 9968 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:57:15.590  WARN 9968 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-26 16:57:15.847  INFO 9968 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-26 16:57:15.879  INFO 9968 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myTaskExecutor'
+2020-06-26 16:57:16.208  INFO 9968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-26 16:57:16.818  INFO 9968 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-26 16:57:17.013  INFO 9968 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-26 16:57:17.031  INFO 9968 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-26 16:57:17.077  INFO 9968 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-26 16:57:17.290  INFO 9968 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2020-06-26 16:57:17.340  INFO 9968 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2020-06-26 16:57:17.388  INFO 9968 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2020-06-26 16:57:17.422  INFO 9968 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDeptTreeUsingGET_1
+2020-06-26 16:57:17.439  INFO 9968 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2020-06-26 16:57:17.468  INFO 9968 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2020-06-26 16:57:17.495  INFO 9968 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2020-06-26 16:57:17.528  INFO 9968 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4b116b8:0/SimpleConnection@41f69ba5 [delegate=amqp://linjr@127.0.0.1:5672/, localPort= 53112]
+2020-06-26 16:57:17.795  INFO 9968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-26 16:57:17.803  INFO 9968 --- [restartedMain] com.linjr.CompanyFrameApplication        : Started CompanyFrameApplication in 8.152 seconds (JVM running for 8.999)
+2020-06-26 16:57:23.157  INFO 9968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-26 16:57:23.157  INFO 9968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-26 16:57:23.170  INFO 9968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-26 16:57:23.623  INFO 9968 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/
+2020-06-26 16:57:23.623  INFO 9968 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:57:23.717  INFO 9968 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/csrf
+2020-06-26 16:57:23.717  INFO 9968 --- [http-nio-8080-exec-3] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:57:33.806  INFO 9968 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendTopicTopicAB
+2020-06-26 16:57:33.806  INFO 9968 --- [http-nio-8080-exec-10] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:57:33.855  INFO 9968 --- [http-nio-8080-exec-10] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:57:33.956  INFO 9968 --- [http-nio-8080-exec-10] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-26 16:57:33.957  INFO 9968 --- [http-nio-8080-exec-10] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-26 16:57:49.550  INFO 9968 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendTopicTopicB
+2020-06-26 16:57:49.550  INFO 9968 --- [http-nio-8080-exec-2] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:57:49.553  INFO 9968 --- [http-nio-8080-exec-2] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:58:24.535  INFO 9968 --- [http-nio-8080-exec-5] c.linjr.shiro.CustomAccessControlFilter  : request 接口地址：http://localhost:8080/sendTopicTopicBC
+2020-06-26 16:58:24.535  INFO 9968 --- [http-nio-8080-exec-5] c.linjr.shiro.CustomAccessControlFilter  : request 接口的请求方式:GET
+2020-06-26 16:58:24.536  INFO 9968 --- [http-nio-8080-exec-5] c.l.s.CustomHashedCredentialsMatcher     : doCredentialsMatch...userIDfcf34b56-a7a2-4719-9236-867495e74c31
+2020-06-26 16:59:51.801  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:52.150  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:52.151  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:53.147  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:53.148  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:54.152  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:54.154  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:55.155  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:55.157  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:55.490  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:55.492  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:55.765  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:55.766  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-26 16:59:55.790  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-26 16:59:55.794  INFO 9968 --- [Thread-25] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.795  INFO 9968 --- [Thread-25] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-26 16:59:55.797  INFO 9968 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myTaskExecutor'
+2020-06-26 16:59:55.804  INFO 9968 --- [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-26 16:59:55.809  INFO 9968 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
