@@ -45,6 +45,9 @@ public enum BaseResponseCode implements ResponseCodeInterface {
     NOT_PERMISSION_DELETED_DEPT(4010015, "该组织机构下还关联着用户，不允许删除"),
     OLD_PASSWORD_ERROR(4010016, "旧密码不匹配"),
     OPERATION_MENU_PERMISSION_URL_CODE_NULL(4000011, "菜单权限的按钮标识不能为空"),
+    WX_LOGIN_ERROR(5000001,"微信登陆失败"),
+    Wx_RELEASE_ERROR(5000002,"发布失败"),
+    Wx_COMMENT_ERROR(5000003,"评论失败")
     ;
 
     /**

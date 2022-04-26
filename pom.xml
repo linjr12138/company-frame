@@ -12,6 +12,7 @@
     <artifactId>company-frame</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>company-frame</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -180,6 +181,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <!--微信开发包-->
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-miniapp</artifactId>
+            <version>3.3.0</version>
         </dependency>
 
     </dependencies>

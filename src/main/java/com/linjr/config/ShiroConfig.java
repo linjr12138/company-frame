@@ -53,6 +53,7 @@ public class ShiroConfig {
         LinkedHashMap<String, String> hashMap = new LinkedHashMap<>();
         hashMap.put("/api/user/login", "anon");
         hashMap.put("/api/user/token", "anon");
+        hashMap.put("/wxapi/**","anon");
 //        hashMap.put("/api/uploadFile", "anon");
         hashMap.put("/index/**", "anon");
         hashMap.put("/images/**", "anon");
